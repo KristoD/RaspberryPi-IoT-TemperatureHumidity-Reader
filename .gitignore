@@ -1,0 +1,6 @@
+aws-iot-device-sdk-python
+root-CA.crt
+start.sh
+chris-temp-sensor.public.key
+chris-temp-sensor.private.key
+chris-temp-sensor.cert.pem
