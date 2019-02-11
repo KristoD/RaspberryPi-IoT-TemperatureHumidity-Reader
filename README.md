@@ -1,0 +1,2 @@
+# RaspberryPi-IoT-TemperatureHumidity-Reader
+Raspberry Pi device that has a temperature and humidity sensor. Device receives readings from sensor, and using a text-to-speech service, notifies the user the temperature and humidity of the room. Then, an MQTT message is published to a specific topic, which triggers an AWS Lambda function, and adds the readings temperature, humidity, and time into a DynamoDB table.
